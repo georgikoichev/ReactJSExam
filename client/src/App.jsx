@@ -54,6 +54,7 @@ function App() {
     logoutHandler,
     email: auth.email,
     isAuthenticated: !!auth.accessToken,
+    userId: auth._id,
   }
 
   return (
